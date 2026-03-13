@@ -1,0 +1,523 @@
+body {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero {
+  background-image: url(/pinetour/awaits.png);
+  width: 1440px;
+  height: 773px;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  width: 1440px;
+  height: 100px;
+}
+menu {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.logo {
+  width: 100px;
+  height: 34px;
+}
+.text-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+}
+h3 {
+  color: rgb(232, 237, 242);
+  font-size: 80px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+}
+h1 {
+  font-size: 250px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  color: rgba(253, 253, 254, 0.98);
+}
+h5 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 64px;
+}
+.content {
+  background-image: url(/pinetour/Location\ image.png);
+  display: flex;
+  height: 500px;
+  gap: 40px;
+  padding: 65px 109px;
+}
+.image {
+  display: flex;
+  height: 370px;
+  width: 275px;
+  border-radius: 40px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+    -8px -8px 0 0 rgba(31, 114, 170, 0.46),
+    8px 8px 0 0 rgba(41, 114, 139, 0.25);
+}
+#card-image {
+  background-image: url(/pinetour/1.png);
+}
+#card-image-1 {
+  background-image: url(/pinetour/amarbaysgalant.png);
+}
+#card-image-2 {
+  background-image: url(/pinetour/3.png);
+}
+#card-image-3 {
+  background-image: url(/pinetour/4.png);
+}
+.img-p {
+  color: rgba(253, 253, 254, 0.8);
+  text-align: center;
+  text-shadow: 0 4px 4.9px rgba(0, 0, 0, 0.65);
+  font-family: "Bebas Neue";
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 232px;
+  z-index: 2;
+}
+
+.roadmap {
+  width: 1440px;
+  height: 1022px;
+  background-image: url(/pinetour/Roadmap\ image.png);
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+}
+.road-text {
+  height: 204px;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 42px;
+  font-weight: 600;
+}
+h4 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.road-p {
+  color: rgba(24, 24, 27, 0.7);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+.container {
+  width: 1200px;
+  height: 640px;
+  display: flex;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+.left-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 513px;
+  align-items: start;
+}
+.location {
+  background-color: #eee9d9;
+}
+.location-1 {
+  background-color: rgba(139, 184, 193, 0.8);
+}
+.location-2 {
+  background-color: rgba(170, 216, 215, 0.8);
+}
+.location-3 {
+  background-color: rgba(139, 192, 189, 0.8);
+}
+.location-4 {
+  background-color: rgba(151, 204, 224, 0.8);
+}
+#loc {
+  display: flex;
+  height: 112px;
+  border-radius: 120px;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+h6 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.loc-icon {
+  height: 14px;
+  width: 14px;
+}
+.loc-pos {
+  display: flex;
+  gap: 30px;
+}
+.day {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  color: black;
+  background-color: white;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.loc-cont {
+  padding: 30px;
+}
+.sukh {
+  height: 112px;
+  width: 100%;
+  border-radius: 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  border: 4px solid transparent;
+}
+.sukh:hover {
+  border: 4px solid white;
+}
+.sukh-loc {
+  display: flex;
+  gap: 10px;
+}
+.sukh-loc p {
+  color: var(--text-text-accent-foreground, #18181b);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.sukh-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sukh-cont p {
+  color: var(--text-text-foreground, #09090b);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.sukh-loc p {
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+#loc-1 {
+  background-color: #eee9d9;
+}
+#loc-2 {
+  background-color: rgba(139, 184, 193, 0.8);
+}
+#loc-3 {
+  background-color: rgba(170, 216, 215, 0.8);
+}
+#loc-4 {
+  background-color: rgba(139, 192, 189, 0.8);
+}
+#loc-5 {
+  background-color: rgba(151, 204, 224, 0.8);
+}
+
+.price {
+  width: 1440px;
+  height: 1120px;
+  background-image: url(/pinetour/Price&Footer\ image.png);
+}
+.budget {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 527px;
+  background-color: white;
+  border-radius: 40px;
+  align-items: start;
+  padding: 20px;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.budget-price {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+}
+.budget-price h5 {
+  color: #fafbfc;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.budget-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50px;
+}
+.budget-head {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  height: 60px;
+}
+
+.card-cont {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+}
+.road-text1 {
+  display: flex;
+  flex-direction: column;
+  height: 250px;
+  justify-content: center;
+}
+.price-card {
+  display: flex;
+  flex-direction: column;
+}
+.budget-price h6 {
+  font-size: 40px;
+  color: #303030;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.budget-price p {
+  color: #919191;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.text-icon {
+  width: 20px;
+  height: 20px;
+}
+.budget-text {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.budget-text p {
+  color: var(--Text-TextSecondary, #3f4145);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.budget-check {
+  display: flex;
+  gap: 20px;
+}
+.budget-check p {
+  font-family: Inter sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.select {
+  background-color: #9fc6de;
+  width: 336px;
+  height: 48px;
+  border-radius: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pop {
+  display: flex;
+  background-color: #6972b5;
+  height: 19px;
+  width: 70px;
+  border-radius: 120px;
+  justify-content: center;
+}
+.popular {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#includes {
+  margin-left: 40px;
+  color: var(--Text-TextPrimary, #121316);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.icon-tour {
+  height: 35px;
+  width: 101px;
+}
+footer {
+  height: 120px;
+  padding: 80px 120px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-size {
+  width: 20px;
+  height: 20px;
+}
+.foot-icon {
+  display: flex;
+  gap: 40px;
+}
+.facebook {
+  display: flex;
+  align-items: center;
+  background-color: #fafbfc;
+  gap: 20px;
+  border-radius: 120px;
+  height: 44px;
+  width: 167px;
+  justify-content: center;
+}
+.foot-icon p {
+  color: #6972b5;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  background-color: #fafbfc;
+  gap: 20px;
+  border-radius: 120px;
+  height: 44px;
+  width: 167px;
+  justify-content: center;
+}
+
+.right-cont-img {
+  position: absolute;
+  width: 245.341px;
+  height: 245px;
+}
+
+#day1-img {
+  top: 450px;
+  left: 1167px;
+  opacity: 0;
+}
+#day2-img {
+  top: 290px;
+  left: 990px;
+  opacity: 0;
+}
+#day3-img {
+  top: 300px;
+  left: 650px;
+  opacity: 0;
+}
+#day4-img {
+  top: 520px;
+  left: 890px;
+  opacity: 0;
+}
+#day5-img {
+  top: 100px;
+  left: 700px;
+  opacity: 0;
+}
+
+#loc-1:hover img {
+  opacity: 1;
+}
+#loc-2:hover img {
+  opacity: 1;
+}
+#loc-3:hover img {
+  opacity: 1;
+}
+#loc-4:hover img {
+  opacity: 1;
+}
+#loc-5:hover img {
+  opacity: 1;
+}
+
+.budget:hover {
+  box-shadow:
+    -8px -8px 0px 0px rgba(46, 65, 71, 0.4),
+    8px 8px 0px 0px rgba(41, 114, 139, 0.25);
+}
+
+.budget:hover .select {
+  background-color: black;
+}
+.budget:hover .select p {
+  color: white;
+}
+.image:hover {
+  opacity: 0.5;
+}
