@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 }
 .hero {
-  background-image: url(/pinetour/awaits.png);
+  background-image: url(./HeroImage.png);
   width: 1440px;
   height: 773px;
   background-size: cover;
@@ -66,7 +66,7 @@ h5 {
   font-size: 64px;
 }
 .content {
-  background-image: url(/pinetour/Location\ image.png);
+  background-image: url(./Location\ image.png);
   display: flex;
   height: 500px;
   gap: 40px;
@@ -85,16 +85,16 @@ h5 {
     8px 8px 0 0 rgba(41, 114, 139, 0.25);
 }
 #card-image {
-  background-image: url(/pinetour/1.png);
+  background-image: url(./1.png);
 }
 #card-image-1 {
-  background-image: url(/pinetour/amarbaysgalant.png);
+  background-image: url(./amarbaysgalant.png);
 }
 #card-image-2 {
-  background-image: url(/pinetour/3.png);
+  background-image: url(./3.png);
 }
 #card-image-3 {
-  background-image: url(/pinetour/4.png);
+  background-image: url(./4.png);
 }
 .img-p {
   color: rgba(253, 253, 254, 0.8);
@@ -113,7 +113,7 @@ h5 {
 .roadmap {
   width: 1440px;
   height: 1022px;
-  background-image: url(/pinetour/Roadmap\ image.png);
+  background-image: url(./Roadmap\ image.png);
   background-size: cover;
   justify-content: center;
   position: relative;
@@ -272,7 +272,7 @@ h6 {
 .price {
   width: 1440px;
   height: 1120px;
-  background-image: url(/pinetour/Price&Footer\ image.png);
+  background-image: url(./Price&Footer\ image.png);
 }
 .budget {
   display: flex;
